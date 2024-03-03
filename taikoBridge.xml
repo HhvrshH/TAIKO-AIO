@@ -1821,8 +1821,13 @@
             section_end()!
 
             section_start("", 398077917)!
-            /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJ2YWx1ZSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIoW1tSQU5ET01fTlVNQkVSXV0qMTAwMDAwMDAwMDAwMDAwMDAwMCktMTAwMDAwMDAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-            VAR_VALUE = (VAR_RANDOM_NUMBER*1000000000000000000)-100000000
+            /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJ2YWx1ZSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIoW1tSQU5ET01fTlVNQkVSXV0qMTAwMDAwMDAwMDAwMCktMTAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+            VAR_VALUE = (VAR_RANDOM_NUMBER*1000000000000)-100
+            section_end()!
+
+            section_start("", 593765367)!
+            /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJWQUxVRSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1ZBTFVFXV0wMDAwMDAiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+            VAR_VALUE = VAR_VALUE + "000000"
             section_end()!
 
             section_start("", 915962960)!
@@ -2443,11 +2448,11 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
-ToolboxHeight=545
+ToolboxHeight=668
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=752
+ScenarioWidth=620
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -2460,7 +2465,7 @@ Helper=&quot;disable&quot;
 Canvas=&quot;enable&quot;
 CanvasNoise=&quot;&quot;
 Audio=&quot;enable&quot;
-QUIC=&quot;enable&quot;
+QUIC=&quot;disable&quot;
 AudioNoise=&quot;&quot;
 MaxFPS=30
 Webrtc=&quot;enable&quot;
@@ -2469,7 +2474,7 @@ Webgl=&quot;enable&quot;
 WebglNoise=&quot;&quot;
 WebglRenderer=&quot;&quot;
 WebglVendor=&quot;&quot;
-Detector=false
+Detector=true
 </SettingsWorker>
      <ChromeCommandLine>--disk-cache-size=1
 --disable-gpu-program-cache

@@ -1282,6 +1282,7 @@ Detector=true
     &quot;SQL&quot;: false,
     &quot;SmsReceive&quot;: false,
     &quot;curlImpersonate&quot;: false,
+    &quot;logger&quot;: true,
     &quot;nativeHttpClient&quot;: false
 }
 </ModulesMetaJson>
